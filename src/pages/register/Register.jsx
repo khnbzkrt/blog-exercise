@@ -1,0 +1,22 @@
+import "./register.css";
+import { Link } from "react-router-dom";
+
+export const Register = () => {
+  return (
+    <div className="register">
+      <span className="registerTitle">Register</span>
+      <form className="registerForm">
+        <label>Username</label>
+        <input type="text" placeholder="username" />
+        <label>Email</label>
+        <input type="text" placeholder="example@example.com" />
+        <label>Password</label>
+        <input type="password" />
+        <button className="registerButton">Register</button>
+      </form>
+      <button className="registerLoginButton">
+        <Link to="/login">Login</Link>
+      </button>
+    </div>
+  );
+};

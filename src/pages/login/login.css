@@ -1,0 +1,60 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgba(241, 153, 153, 0.5)),
+    url("https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=2000");
+  background-size: cover;
+}
+
+.login .loginTitle {
+  font-size: 50px;
+}
+
+.login .loginForm {
+  width: 25%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login .loginForm > label {
+  margin: 10px 0px;
+}
+
+.login .loginForm > input {
+  padding: 10px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.login .loginForm .loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.login .loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.login .loginRegisterButton > a {
+  color: #fff;
+  text-decoration: none;
+}

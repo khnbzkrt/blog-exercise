@@ -1,0 +1,60 @@
+.register {
+  height: calc(100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgb(255, 255, 255, 0.5), rgba(153, 176, 241, 0.5)),
+    url("https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=2000");
+  background-size: cover;
+}
+
+.register .registerTitle {
+  font-size: 50px;
+}
+
+.register .registerForm {
+  width: 25%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.register .registerForm > label {
+  margin: 10px 0px;
+}
+
+.register .registerForm > input {
+  padding: 10px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.register .registerForm .registerButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: teal;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 10px;
+}
+
+.register .registerLoginButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: lightcoral;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 10px;
+  color: #fff;
+}
+
+.register .registerLoginButton > a {
+  text-decoration: none;
+  color: #fff;
+}

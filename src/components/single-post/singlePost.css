@@ -1,0 +1,76 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePost .singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+}
+
+.singlePost .singlePostWrapper .singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.singlePost .singlePostWrapper .singlePostTitle {
+  text-align: center;
+  margin: 10px 0px 20px 0px;
+  font-family: "Lora", sans-serif;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.singlePost .singlePostWrapper .singlePostTitle .singlePostEdit {
+  font-size: 16px;
+}
+
+.singlePost
+  .singlePostWrapper
+  .singlePostTitle
+  .singlePostEdit
+  .singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePost
+  .singlePostWrapper
+  .singlePostTitle
+  .singlePostEdit
+  .singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePost
+  .singlePostWrapper
+  .singlePostTitle
+  .singlePostEdit
+  .singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePost .singlePostWrapper .singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: #b39656;
+  font-family: "Varela", sans-serif;
+}
+
+.singlePost .singlePostWrapper .singlePostDescription {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePost .singlePostWrapper .singlePostDescription::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600;
+}
